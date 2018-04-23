@@ -2,8 +2,11 @@ import org.junit.Test;
 
 public class test {
 
-    @Test
+    @Test ()
     public void firstTest() {
-        System.out.println("ok");
+        String list;
+        list = "123";
+        System.out.println("ok " + list);
+
     }
 }
